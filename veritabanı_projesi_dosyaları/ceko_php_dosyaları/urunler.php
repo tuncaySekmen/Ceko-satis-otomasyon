@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ürünler</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+    <div id="social">
+
+        <font>
+            CEKO | <span>
+                Bir KOÜ Markası...
+            </span>
+
+        </font>
+        <a id="button" href="giris.php">Giriş Yap</a>
+        <a id="button" href="kayıt.php" target="">Kayıt Ol</a>
+
+
+
+
+    </div>
+    <div id="container">
+        <header>
+            <img id="headerResim" src="resimler/ceko.jpg" alt="">
+            <div id="centered"></div>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="index.php">Anasayfa</a></li>
+                    <li><a href="magazalarimiz.php">Mağazalarımız</a></li>
+                    <li><a href="urunler.php">Ürünler</a></li>
+                    <li><a href="hakkimizda.php">Hakkımızda</a></li>
+
+                </ul>
+
+            </nav>
+            <main>
+                <h1>Ürünlerimiz</h1>
+
+                <div class="Icerik">
+                    <img src="resimler/elektronik.jpg" alt="" class=rsm>
+                    <h4>Beyaz Eşyalar</h4>
+                    <p class=icerikText></p>
+                    <a href="#" class=btnDevam>Devamını Oku...</a>
+                    
+                </div>
+                   
+                <div class="Icerik">
+                    <img src="resimler/ev%20aleti.jpg" alt="" class=rsm>
+                    <h4>Küçük Ev Aletleri</h4>
+                    <p class=icerikText></p>
+                    <a href="#" class=btnDevam>Devamını Oku...</a>
+                    
+                    
+                </div>   
+                    
+                <div class="Icerik">
+                    <img src="resimler/su%20ar%C4%B1tma.jpg" alt="" class=rsm>
+                    <h4>Su Arıtma</h4>
+                    <p class=icerikText></p>
+                    <a href="#" class=btnDevam>Devamını Oku...</a>
+                    
+                    
+                </div> 
+                
+                <div class="Icerik">
+                    <img src="resimler/kombi.jpg" alt="" class=rsm>
+                    <h4>Kombi Klima</h4>
+                    <p class=icerikText></p>
+                    <a href="#" class=btnDevam>Devamını Oku...</a>    
+                </div>
+                
+                 <div class="Icerik">
+                    <img src="resimler/televizyon.jpg" alt="" class=rsm>
+                    <h4>Televizyon</h4>
+                    <p class=icerikText></p>
+                    <a href="#" class=btnDevam>Devamını Oku...</a>    
+                </div> 
+                
+                 <div class="Icerik">
+                    <img src="resimler/elektronik.jpg" alt="" class=rsm>
+                    <h4>Elektronik Aletler</h4>
+                    <p class=icerikText></p>
+                    <a href="#" class=btnDevam>Devamını Oku...</a>    
+                </div>
+                
+                 <div class="Icerik">
+                    <img src="resimler/ankastre.jpg" alt="" class=rsm>
+                    <h4>Ankastre</h4>
+                    <p class=icerikText></p>
+                    <a href="#" class=btnDevam>Devamını Oku...</a>    
+                </div>
+                 
+                <div class="Icerik">
+                    <img src="resimler/hijyen.jpg" alt="" class=rsm>
+                    <h4>Hijyen ve Temizlik</h4>
+                    <p class=icerikText></p>
+                    <a href="#" class=btnDevam>Devamını Oku...</a>    
+                </div>
+                 <div class="Icerik">
+                    <img src="resimler/bak%C4%B1m.jpg" alt="" class=rsm>
+                    <h4>Bakım Ürünleri</h4>
+                    <p class=icerikText></p>
+                    <a href="#" class=btnDevam>Devamını Oku...</a>    
+                </div>                                                                                                                 
+                
+
+            </main>
+        </section>
+        <footer>Tüm Hakları Saklıdır &copy; | 2024</footer>
+    </div>
+
+</body>
+
+</html>

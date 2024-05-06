@@ -1,0 +1,402 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+    font-family: sans-serif;
+
+
+}
+
+#social {
+    background-color: black;
+    color: white;
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 25px;
+    text-align: right;
+    padding: 15px;
+    letter-spacing: 3px;
+
+
+
+
+
+}
+
+#button {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    width: 50%;
+    height: 2px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-radius: 5px;
+
+
+
+}
+
+font {
+    float: left;
+    letter-spacing: 2px;
+}
+
+span {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    height: auto;
+
+
+
+}
+
+header {
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-bottom: 5px;
+
+
+
+
+}
+
+#headerResim {
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 2;
+
+
+}
+
+#centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+section {
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-top: 15px;
+    overflow: auto;
+
+
+
+
+}
+
+nav {
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+
+}
+
+nav ul {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    display: block;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: #adadad;
+
+}
+
+main {
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin: 0 10px;
+
+}
+
+#hakkimizdaRSM {
+    width: 350px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    margin: 15px;
+
+
+}
+
+.hakyazi {
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Cambria;
+    text-indent: 30px;
+    color: #494949;
+
+}
+
+.Mağazalarımız {
+    width: 31%;
+    height: auto;
+    background-color: white;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+
+}
+
+.refResim {
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0;
+
+}
+
+.refBaslik {
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 0px;
+    color: black;
+    height: 45px;
+    line-height: 45px;
+    background-color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    margin-top: -5px;
+
+
+}
+
+.refDetay {
+    text-align: center;
+}
+
+.girisBaslik {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+div {
+    margin-top: 10px;
+    text-align: center;
+   
+}
+.Ürünler {
+    width: 31%;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+
+.Icerik {
+    width: 31%;
+    height: auto;
+    display: inline-block;
+    margin-right: 15px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+.rsm {
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+h4{
+    margin: 10px;
+    color: dimgray;
+}
+.icerikText{
+    margin: 15px;
+}
+.btnDevam{
+    display: block;
+    width: 165px;
+    height: 45px;
+    padding: 10px 20px;
+    background-color: #0071ce;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 10px;
+    color:snow;
+}
+iframe{
+    width: 98%;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-left: 10px;
+    
+}
+.section1{
+    width: 98%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    
+}
+.form{
+    width: 49%;
+    float: left;
+    height: 380px;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    margin-right: 10px;
+}
+.col25{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+    
+}
+.col75{
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=text],textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.row:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+input[type=submit]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+        
+}
+.adres{
+    width: 49%;
+    float: left;
+    height: 380px;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+}
+.span1{
+    display: block;
+    font-family: Calibri;
+    margin: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 16px;
+}
+.kayitBaslik{
+    margin-bottom: 10px;
+}
+}
+#mKayit{
+    width: 49%;
+    float: left;
+    height: 380px;
+    border: auto;
+    padding: 10px;
+}
+#pKayit{
+    width: 49%;
+    float: right;
+    height: 380px;
+    border: auto;
+    padding: 10px; 
+}
+div{
+    margin-top: 10px;
+    text-align: center;
+}
+#text1{
+    width: 56.5%;
+    padding: 3px;
+    border: 1px solid #000000;
+    border-radius: 0;
+}
+#text2{
+    width: 56.5%;
+    padding: 3px;
+    border: 1px solid #000000;
+    border-radius: 0;
+}
